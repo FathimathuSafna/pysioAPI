@@ -12,7 +12,7 @@ const app = express();
 const corsOptions = {
  origin: [
     "http://localhost:5173",
-    "https://physio.insigntechsolutions.com"
+    "https://api-pysio.safna.online"
   ],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
