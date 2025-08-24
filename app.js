@@ -11,8 +11,9 @@ const app = express();
 
 const corsOptions = {
  origin: [
+  "https://pysio.safna.online",
     "http://localhost:5173",
-    "https://api-pysio.safna.online"
+    
   ],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
